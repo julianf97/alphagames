@@ -1,0 +1,42 @@
+@media (max-width:600px){ 
+
+    .carrousel-index-desktop{
+        display:none;
+       
+   }
+   .carrousel-index-mobile{
+        margin-bottom: 1rem;
+        margin-top: 45px ;
+    }
+}
+   @media only screen and (min-width:600px) { 
+
+    .carrousel-index-mobile{
+        display:none
+   }
+   .carrousel-index-desktop{
+        margin-bottom: 1rem;
+        margin-top: 60px ;
+   
+    }
+
+    }
+    @media only screen and (min-width:600px) and (max-width:902px) { 
+
+        .carrousel-index-desktop{
+            margin-bottom: 1rem;
+            margin-top: 40px ;
+       
+        }
+    }
+
+    @media only screen and (min-width:993px) and (max-width:1035px) { 
+
+        .carrousel-index-desktop{
+            margin-bottom: 1rem;
+            margin-top: 50px ;
+       
+        }
+    }
+ 
+ 

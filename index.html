@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/31a5b25862.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet">
+    <link rel="shorcut icon" href="" type="image/x-icon">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" href="./bootstrap-descargado/bootstrap-5.2.0-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>AlPHA GAMES - Games, Consoles, Game news, Esports Tournaments</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-color">
+            <div class="container-fluid container-modificado">
+                <div class="navbar-brand brand-color" href="#">
+                    <div class="contenedor-logo"><img src="./img/logo.png"></div>
+                    <a class="alpha" href="#">ALPHA GAMES</a>
+                </div>
+                <div class="lupa-carrito-mobile">
+                    <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    <a href="#"><i class="fa-solid fa-cart-shopping carrito"></i></a>
+                </div>
+              <button class="navbar-toggler toggler-modificado" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars"></i>
+              </button>
+              <div class="collapse navbar-collapse collapse-modificado" id="navbarTogglerDemo02">
+                <ul class="navbar-nav navbar-nav-modificado me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link color-link" aria-current="page" href="#">+News</a>
+                    </li> 
+                    <li class="nav-item">
+                        <a class="nav-link color-link" href="#">Games Store</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link color-link" href="#">Consoles</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link color-link" href="#">ESports</a>
+                    </li>
+                </ul>
+                <div class="search">
+                    <form class="d-flex d-flex-modificado" role="search">
+                        <input class="form-control form-control-modificado" type="search" placeholder="Search your next game.." aria-label="Search">
+                        <div class="contenedor-lupa">
+                            <button class="btn boton-lupa" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                        </div>
+                      </form>
+                </div>
+                <div class="contenedor-carrito-sign">
+                    <a href="#"><i class="fa-solid fa-cart-shopping carrito"></i></a>
+                    <button class="signin" role="button">Sign in / Register</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="carrousel-index-mobile">
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./img/carrousel-index-mobile/mobile-carrousel1.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./img/carrousel-index-mobile/mobile-carrousel2.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./img/carrousel-index-mobile/mobile-carrousel3.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <div class="carrousel-index-desktop">
+          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./img/carrousel-index-desktop/carousel-primero.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>First slide label</h5>
+                  <p>Some representative placeholder content for the first slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./img/carrousel-index-desktop/carousel-segundo.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Second slide label</h5>
+                  <p>Some representative placeholder content for the second slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./img/carrousel-index-desktop/carousel-tercero.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Third slide label</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        
+            <div class="flecha-presales">
+                <div class="contenedor-flecha">
+                    <div class="arrow bounce">
+                        <i class="arrow fa-solid fa-angle-down"></i>
+                      </div>
+                </div>
+                <div class="contenedor-titulo-presales">
+                    <h3>PRESALES</h3>
+
+                </div>
+            </div>
+            <div class="contenedor-presales-week">
+              <div class="contenedor-carta-desktop">
+                <div class="card carta">
+                  <img src="./img/carrousel-cards/presale-cyberpunk.jpg" class="card-img-top" alt="...">
+                  <div class="card-body cuerpo-carta">
+                    <h5 class="card-title titulo-carta">CYBERPUNK 2077</h5>
+                    <ul class="lista-texto">
+                      <li>Play Station 4</li>
+                      <li>Price: $40</li>
+                    <a href="#" class="btn btn-primary reserve-now">Reserve Now!</a>
+                  </div>
+                </div>
+              </div>
+              <div class="contenedor-carta-desktop">
+                <div class="card carta">
+                  <img src="./img/carrousel-cards/presale-halo5.jpg" class="card-img-top" alt="...">
+                  <div class="card-body cuerpo-carta">
+                    <h5 class="card-title titulo-carta">HALO 5</h5>
+                    <ul class="lista-texto">
+                      <li>Xbox One</li>
+                      <li>Price: $40</li>
+                    <a href="#" class="btn btn-primary reserve-now">Reserve Now!</a>
+                  </div>
+                </div>
+              </div>
+              <div class="contenedor-carta-desktop">
+                <div class="card carta">
+                  <img src="./img/carrousel-cards/presale-pokemonshield.jpg" class="card-img-top" alt="...">
+                  <div class="card-body cuerpo-carta">
+                    <h5 class="card-title titulo-carta">POKEMON SHIELD</h5>
+                    <ul class="lista-texto">
+                      <li>Nintendo Switch</li>
+                      <li>Price: $40</li>
+                    <a href="#" class="btn btn-primary reserve-now">Reserve Now!</a>
+                  </div>
+                </div>
+              </div>
+              <div class="contenedor-carta-desktop">
+                <div class="card carta">
+                  <img src="./img/carrousel-cards/presale-fifa21.jpg" class="card-img-top" alt="...">
+                  <div class="card-body cuerpo-carta">
+                    <h5 class="card-title titulo-carta">FIFA 21</h5>
+                    <ul class="lista-texto">
+                      <li>Xbox One</li>
+                      <li>Price 40$</li>
+                    <a href="#" class="btn btn-primary reserve-now">Reserve Now!</a>
+                  </div>
+                </div>
+              </div>
+              <div class="contenedor-carta-desktop">
+                <div class="card carta">
+                  <img src="./img/carrousel-cards/valjala.png" class="card-img-top" alt="...">
+                  <div class="card-body cuerpo-carta">
+                    <h5 class="card-title titulo-carta">ASSASSIN'S CREED</h5>
+                    <ul class="lista-texto">
+                      <li>Play Station 4</li>
+                      <li>Price: $40</li>
+                    <a href="#" class="btn btn-primary reserve-now">Reserve Now!</a>
+                  </div>
+                </div>
+              </div>
+              <div class="contenedor-carta-desktop supercampeones">
+                <div class="card carta">
+                  <img src="./img/carrousel-cards/presale-supercampeones.jpg" class="card-img-top" alt="...">
+                  <div class="card-body cuerpo-carta">
+                    <h5 class="card-title titulo-carta">CAPTAIN TSUBASA</h5>
+                    <ul class="lista-texto">
+                      <li>Nintendo Switch</li>
+                      <li>Price: $40</li>
+                    <a href="#" class="btn btn-primary reserve-now">Reserve Now!</a>
+                  </div>
+                </div>
+              </div>
+               <div class="contenedor-carrusel-presales">
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="4000">
+                      <div class="contenedor-carta">
+                          <div class="card carta">
+                            <img src="./img/carrousel-cards/presale-halo5.jpg" class="card-img-top" alt="...">
+                            <div class="card-body cuerpo-carta">
+                              <h5 class="card-title titulo-carta">HALO 5</h5>
+                              <ul class="lista-texto">
+                                <li>Xbox One</li>
+                                <li>Price 40$</li>
+                              <a href="#" class="btn btn-primary reserve-now">Reserve Now!</a>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="4000">
+                      <div class="contenedor-carta">
+                          <div class="card carta">
+                              <img src="./img/carrousel-cards/presale-cyberpunk.jpg" class="card-img-top" alt="...">
+                            <div class="card-body cuerpo-carta">
+                              <h5 class="card-title titulo-carta">CYBERPUNK 2077</h5>
+                              <ul class="lista-texto">
+                                <li>Play Station 4</li>
+                                <li>Price 40$</li>
+                              <a href="#" class="btn btn-primary reserve-now">Reserve Now!</a>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="4000">
+                      <div class="contenedor-carta">
+                          <div class="card carta">
+                            <img src="./img/carrousel-cards/presale-fifa21.jpg" class="card-img-top" alt="...">
+                            <div class="card-body cuerpo-carta">
+                              <h5 class="card-title titulo-carta">FIFA 21</h5>
+                              <ul class="lista-texto">
+                                <li>Xbox One</li>
+                                <li>Price 40$</li>
+                              <a href="#" class="btn btn-primary reserve-now">Reserve Now!</a>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="4000">
+                      <div class="contenedor-carta">
+                          <div class="card carta">
+                            <img src="./img/carrousel-cards/presale-pokemonshield.jpg" class="card-img-top" alt="...">
+                            <div class="card-body cuerpo-carta">
+                              <h5 class="card-title titulo-carta">POKEMON SHIELD</h5>
+                              <ul class="lista-texto">
+                                <li>Nintendo Switch</li>
+                                <li>Price 40$</li>
+                              <a href="#" class="btn btn-primary reserve-now">Reserve Now!</a>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="4000">
+                      <div class="contenedor-carta">
+                          <div class="card carta">
+                            <img src="./img/carrousel-cards/valjala.png" class="card-img-top" alt="...">
+                            <div class="card-body cuerpo-carta">
+                              <h5 class="card-title titulo-carta">ASSASSIN'S CREED</h5>
+                              <ul class="lista-texto">
+                                <li>Play Station 4</li>
+                                <li>Price 40$</li>
+                              <a href="#" class="btn btn-primary reserve-now">Reserve Now!</a>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="4000">
+                      <div class="contenedor-carta">
+                          <div class="card carta">
+                            <img src="./img/carrousel-cards/presale-supercampeones.jpg" class="card-img-top" alt="...">
+                            <div class="card-body cuerpo-carta">
+                              <h5 class="card-title titulo-carta">CAPTAIN TSUBASA</h5>
+                              <ul class="lista-texto">
+                                <li>Nintendo Switch</li>
+                                <li>Price 40$</li>
+                              <a href="#" class="btn btn-primary reserve-now">Reserve Now!</a>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="contenedor-img-red-dead-desktop">
+              <img src="./img/separadores-index/red-dead-desktop.jpg">
+              <div class="flecha-presales">
+                <div class="titulo-week">
+                  <h3>BESTSELLERS OF THE WEEK</h3>
+                </div>
+              </div>
+            </div>
+            <div class="contenedor-img-red-dead-mobile">
+              <img src="./img/separadores-index/red-dead.jpg">
+              <div class="flecha-presales">
+                <div class="titulo-week">
+                  <h3>BESTSELLERS OF THE WEEK</h3>
+                </div>
+              </div>
+            </div>
+            <div class="contenedor-presales-week">
+              <div class="contenedor-carta-desktop">
+                <div class="card carta">
+                  <img src="./img/carrousel-week/week1.jpg" class="card-img-top" alt="...">
+                  <div class="card-body cuerpo-carta">
+                    <h5 class="card-title titulo-carta">GOD OF WAR 3</h5>
+                    <ul class="lista-texto">
+                      <li>Play Station 4</li>
+                      <li>Price: $40</li>
+                    <a href="#" class="btn btn-primary reserve-now">BUY NOW!</a>
+                  </div>
+                </div>
+              </div>
+              <div class="contenedor-carta-desktop">
+                <div class="card carta">
+                  <img src="./img/carrousel-week/week2.jpg" class="card-img-top" alt="...">
+                  <div class="card-body cuerpo-carta">
+                    <h5 class="card-title titulo-carta">SEKIRO</h5>
+                    <ul class="lista-texto">
+                      <li>Xbox One</li>
+                      <li>Price: $40</li>
+                    <a href="#" class="btn btn-primary reserve-now">BUY NOW!</a>
+                  </div>
+                </div>
+              </div>
+              <div class="contenedor-carta-desktop">
+                <div class="card carta">
+                  <img src="./img/carrousel-week/week3.jpg" class="card-img-top" alt="...">
+                  <div class="card-body cuerpo-carta">
+                    <h5 class="card-title titulo-carta">D O O M</h5>
+                    <ul class="lista-texto">
+                      <li>Nintendo Switch</li>
+                      <li>Price: $40</li>
+                    <a href="#" class="btn btn-primary reserve-now">BUY NOW!</a>
+                  </div>
+                </div>
+              </div>
+              <div class="contenedor-carta-desktop">
+                <div class="card carta">
+                  <img src="./img/carrousel-week/week4.jpg" class="card-img-top" alt="...">
+                  <div class="card-body cuerpo-carta">
+                    <h5 class="card-title titulo-carta">LEGEND OF ZELDA</h5>
+                    <ul class="lista-texto">
+                      <li>Nintendo Switch</li>
+                      <li>Price 40$</li>
+                    <a href="#" class="btn btn-primary reserve-now">BUY NOW!</a>
+                  </div>
+                </div>
+              </div>
+              <div class="contenedor-carta-desktop">
+                <div class="card carta">
+                  <img src="./img/carrousel-week/week5.jpg" class="card-img-top" alt="...">
+                  <div class="card-body cuerpo-carta">
+                    <h5 class="card-title titulo-carta">DEAD SPACE 3</h5>
+                    <ul class="lista-texto">
+                      <li>Xbox ONE</li>
+                      <li>Price: $40</li>
+                    <a href="#" class="btn btn-primary reserve-now">BUY NOW!</a>
+                  </div>
+                </div>
+              </div>
+              <div class="contenedor-carta-desktop supercampeones">
+                <div class="card carta">
+                  <img src="./img/carrousel-week/week6.jpg" class="card-img-top" alt="...">
+                  <div class="card-body cuerpo-carta">
+                    <h5 class="card-title titulo-carta">INFINITE WARFARE</h5>
+                    <ul class="lista-texto">
+                      <li>Play Station 4</li>
+                      <li>Price: $40</li>
+                    <a href="#" class="btn btn-primary reserve-now">BUY NOW!</a>
+                  </div>
+                </div>
+              </div>
+              <div class="contenedor-carrusel-presales">
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="4000">
+                      <div class="contenedor-carta">
+                          <div class="card carta">
+                            <img src="./img/carrousel-week/week1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body cuerpo-carta">
+                              <h5 class="card-title titulo-carta">GOD OF WAR 3</h5>
+                              <ul class="lista-texto">
+                                <li>Play Station 4</li>
+                                <li>Price 40$</li>
+                              <a href="#" class="btn btn-primary reserve-now">BUY NOW!</a>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="4000">
+                      <div class="contenedor-carta">
+                          <div class="card carta">
+                              <img src="./img/carrousel-week/week2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body cuerpo-carta">
+                              <h5 class="card-title titulo-carta">SEKIRO</h5>
+                              <ul class="lista-texto">
+                                <li>Xbox ONE</li>
+                                <li>Price 40$</li>
+                              <a href="#" class="btn btn-primary reserve-now">BUY NOW!</a>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="4000">
+                      <div class="contenedor-carta">
+                          <div class="card carta">
+                            <img src="./img/carrousel-week/week3.jpg" class="card-img-top" alt="...">
+                            <div class="card-body cuerpo-carta">
+                              <h5 class="card-title titulo-carta">D O O M</h5>
+                              <ul class="lista-texto">
+                                <li>Nintendo Switch</li>
+                                <li>Price 40$</li>
+                              <a href="#" class="btn btn-primary reserve-now">BUY NOW!</a>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="4000">
+                      <div class="contenedor-carta">
+                          <div class="card carta">
+                            <img src="./img/carrousel-week/week4.jpg" class="card-img-top" alt="...">
+                            <div class="card-body cuerpo-carta">
+                              <h5 class="card-title titulo-carta">LEGEND OF ZELDA</h5>
+                              <ul class="lista-texto">
+                                <li>Nintendo Switch</li>
+                                <li>Price 40$</li>
+                              <a href="#" class="btn btn-primary reserve-now">BUY NOW!</a>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="4000">
+                      <div class="contenedor-carta">
+                          <div class="card carta">
+                            <img src="./img/carrousel-week/week5.jpg" class="card-img-top" alt="...">
+                            <div class="card-body cuerpo-carta">
+                              <h5 class="card-title titulo-carta">DEAD SPACE 3</h5>
+                              <ul class="lista-texto">
+                                <li>Xbox ONE</li>
+                                <li>Price 40$</li>
+                              <a href="#" class="btn btn-primary reserve-now">BUY NOW!</a>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="4000">
+                      <div class="contenedor-carta">
+                          <div class="card carta">
+                            <img src="./img/carrousel-week/week6.jpg" class="card-img-top" alt="...">
+                            <div class="card-body cuerpo-carta">
+                              <h5 class="card-title titulo-carta">INFINITE WARFARE</h5>
+                              <ul class="lista-texto">
+                                <li>Play Station 4</li>
+                                <li>Price 40$</li>
+                              <a href="#" class="btn btn-primary reserve-now">BUY NOW!</a>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="contenedor-img-red-dead-desktop">
+              <img src="./img/separadores-index/kakaroto-desktop.jpg">
+              <div class="flecha-presales">
+                <div class="titulo-week">
+                  <h3>PS4 COLLECTOR'S LIMITED EDITIONS</h3>
+                </div>
+              </div>
+            </div>
+            <div class="kakaroto-mobile">
+              <img src="./img/separadores-index/kakarot-mobile.jpg">
+              <div class="flecha-presales">
+                <div class="titulo-week kakaroto-titulo">
+                  <h3 class="titulo-PS4"><h3>PS4 COLLECTOR'S</h3>
+                  <h3 class="titulo-PS4"><h3>LIMITED EDITIONS </h3>
+                </div>
+              </div>
+            </div>
+            <div class="contenedor-limited">
+              <div class="contenedor-carta-limited">
+                <div class="card carta">
+                  <img src="./img/limited/collectionedition-daysgone-removebg-preview.png" class="card-img-top" alt="...">
+                  <div class="card-body cuerpo-carta">
+                    <h5 class="card-title titulo-carta">DAYS GONE - Collector's Edition</h5>
+                    <ul class="lista-texto">
+                      <li class="price">Price 250$</li>
+                    <a href="#" class="btn btn-primary reserve-now">BUY NOW!</a>
+                  </div>
+                </div>
+              </div>
+              <div class="contenedor-carta-limited">
+                <div class="card carta">
+                  <img src="./img/limited/god.png" class="card-img-top" alt="...">
+                  <div class="card-body cuerpo-carta">
+                    <h5 class="card-title titulo-carta">GOD OF WAR - Collector's Edition</h5>
+                    <ul class="lista-texto">
+                      <li class="price">Price 250$</li>
+                    <a href="#" class="btn btn-primary reserve-now">BUY NOW!</a>
+                  </div>
+                </div>
+              </div>
+              <div class="contenedor-carta-limited">
+                <div class="card carta">
+                  <img src="./img/limited/spider.png" class="card-img-top" alt="...">
+                  <div class="card-body cuerpo-carta">
+                    <h5 class="card-title titulo-carta">SPIDER-MAN - Collector's Edition</h5>
+                    <ul class="lista-texto">
+                      <li class="price">Price 250$</li>
+                    <a href="#" class="btn btn-primary reserve-now">BUY NOW!</a>
+                  </div>
+                </div>
+              </div>
+              <div class="contenedor-carta-limited">
+                <div class="card carta">
+                  <img src="./img/limited/last.png" class="card-img-top" alt="...">
+                  <div class="card-body cuerpo-carta">
+                    <h5 class="card-title titulo-carta">THE LAST OF US: Part II - Collector's Edition</h5>
+                    <ul class="lista-texto">
+                      <li class="price">Price 250$</li>
+                    <a href="#" class="btn btn-primary reserve-now">BUY NOW!</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="contenedor-limited-desktop">
+              <div class="contenedor-carta-limited">
+                <div class="card carta">
+                  <img src="./img/limited/daysgone.png" class="card-img-top" alt="...">
+                  <div class="card-body cuerpo-carta">
+                    <h5 class="card-title titulo-carta">THE DAYS GONE - Collector's Edition</h5>
+                    <ul class="lista-texto">
+                      <li class="price">Price 250$</li>
+                    <a href="#" class="btn btn-primary reserve-now">BUY NOW!</a>
+                  </div>
+                </div>
+              </div>
+              <div class="contenedor-carta-limited">
+                <div class="card carta">
+                  <img src="./img/limited/god.png" class="card-img-top" alt="...">
+                  <div class="card-body cuerpo-carta">
+                    <h5 class="card-title titulo-carta">GOD OF WAR - Collector's Edition</h5>
+                    <ul class="lista-texto">
+                      <li class="price">Price 250$</li>
+                    <a href="#" class="btn btn-primary reserve-now">BUY NOW!</a>
+                  </div>
+                </div>
+              </div>
+              <div class="contenedor-carta-limited">
+                <div class="card carta">
+                  <img src="./img/limited/spider-desktop.png" class="card-img-top" alt="...">
+                  <div class="card-body cuerpo-carta">
+                    <h5 class="card-title titulo-carta">SPIDER-MAN - Collector's Edition</h5>
+                    <ul class="lista-texto">
+                      <li class="price">Price 250$</li>
+                    <a href="#" class="btn btn-primary reserve-now">BUY NOW!</a>
+                  </div>
+                </div>
+              </div>
+              <div class="contenedor-carta-limited">
+                <div class="card carta">
+                  <img src="./img/limited/last-desktop.png" class="card-img-top" alt="...">
+                  <div class="card-body cuerpo-carta">
+                    <h5 class="card-title titulo-carta">THE LAST OF US: Part II - Collector's Edition</h5>
+                    <ul class="lista-texto">
+                      <li class="price">Price 250$</li>
+                    <a href="#" class="btn btn-primary reserve-now">BUY NOW!</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="soon-mobile">
+              <img src="./img/separadores-index/teken-mobile.jpg">
+              <div class="flecha-presales">
+                <div class="titulo-week">
+                  <h3>SOON IN AlPHA GAMES</h3>
+                </div>
+              </div>
+            </div>
+            <div class="soon">
+              <img src="./img/separadores-index/index-banner-3.jpg">
+              <div class="flecha-presales">
+                <div class="titulo-week">
+                  <h3>SOON IN AlPHA GAMES</h3>
+                </div>
+              </div>
+            </div>
+            <div class="contenedor-limited-consoles">
+              <div class="contenedor-carta-limited">
+                <div class="card carta">
+                  <img src="./img/soon/soon-seriesxys.jpg" class="card-img-top" alt="...">
+                </div>
+              </div>
+              <div class="contenedor-carta-limited">
+                <div class="card carta">
+                  <img src="./img/soon/soon-nintendo2dsxl.jpg" class="card-img-top" alt="...">
+                </div>
+              </div>
+              <div class="contenedor-carta-limited">
+                <div class="card carta">
+                  <img src="./img/soon/soon-ps5.jpg" class="card-img-top" alt="...">
+                </div>
+              </div>
+            </div>
+ </main>
+ <footer>
+  <div class="contenedor-footer">
+    <div class="contenedor-payment">
+      <h4 class="titulo-footer">Payments Methods</h4>
+      <div class="contenedor-metodos"> 
+        <div class="contenedor-img-footer">
+          <img src="./img/footer/creditcards.png">
+        </div>
+      </div>
+    </div>
+    <div class="contenedor-payment">
+      <h4 class="titulo-footer">Complaints Book</h4>
+      <div class="contenedor-metodos contenedor-libro">
+        <i class="fa-solid fa-book libro"></i>
+      </div>
+    </div>
+    <div class="contenedor-payment">
+      <h4 class="titulo-footer">Client Service</h4>
+      <div class="contenedor-client">
+        <ul>
+          <li>Warranty</li>
+          <li>Terms of Use</li>
+          <li>Privacy Policy</li>
+          <li>Exchange & Return Policy</li>
+        </ul>
+        
+      </div>
+    </div>
+    <div class="contenedor-payment">
+      <h4 class="titulo-footer">Contac Us</h4>
+      <div class="contenedor-contac">
+        <ul>
+          <li>Central telephone: <a href="#">+051 977 600 468</a>
+           </li>
+          <li>Email:
+            contact@fromgames.com</li>
+          <li>Opening Hours
+            M - F 9am at 6pm</li>
+        </ul>
+      </div>
+    </div>
+    <div class="contenedor-categories">
+      <h4 class="titulo-footer">Categories</h4>
+      <div class="contenedor-metodos">
+        
+      </div>
+    </div>
+    <div class="contenedor-payment final-mobile">
+      <div class="contenedor-derechos">
+        <h6>© 2020 ALPHA GAMES - All rights reserved</h6>
+      </div>
+      <div class="contenedor-derechos redes">
+        <i class="fa-brands fa-square-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+      </div>
+    </div>
+  </div>
+  <div class="contenedor-final">
+    <div class="contenedor-derechos">
+      <h6>© 2020 ALPHA GAMES - All rights reserved</h6>
+    </div>
+    <div class="redes">
+      <i class="fa-brands fa-square-facebook"></i>
+      <i class="fa-brands fa-instagram"></i>
+    </div>
+  </div>
+ </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+</body>
+</html>

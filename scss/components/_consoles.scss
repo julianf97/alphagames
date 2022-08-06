@@ -1,0 +1,185 @@
+@media only screen and (min-width:541px){ 
+
+    .contenedor-consoles{ 
+
+        display: none;
+    }
+
+    .contenedor-limited{
+        display: none;
+    }
+
+    .contenedor-limited-desktop{ 
+        padding: 1rem;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 1rem;
+    .contenedor-carta-limited{
+       margin-bottom: 1rem;
+        width: 50%;
+        padding-right: 0.5rem ;
+        padding-left:  0.5rem;
+        .carta{
+            border-radius: 0.50rem;
+            border:1px solid rgba(0,0,0,.125);
+            box-shadow: 0 10px 20px rgb(0 0 0 / 19%), 0 6px 6px rgb(0 0 0 / 23%);
+            height: auto;
+    
+    
+    
+    
+        img{
+            width: 100%;
+            transition: all 0.5s;  
+        }
+        img:hover{ 
+             transform: scale(108%);
+            }
+        .cuerpo-carta{    
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .titulo-carta{
+                text-align: center;
+                font-weight: 700;
+            
+            }
+            .lista-texto{
+                list-style: none;
+    
+            }
+            .price{
+                margin-left: 0.1rem;
+            }
+        .reserve-now{
+            border-radius: 0.25rem;
+            background-color: #007BFF;
+            color: #fff;
+            border: #007BFF;
+            margin-right: 2.1rem;
+            margin-top: 0.3rem;
+            font-size: 0.8rem;
+        }
+    }
+
+ }
+}
+     }
+
+
+ }
+ @media only screen and (max-width:541px){ 
+
+    .contenedor-limited-desktop{ 
+
+        display: none;
+     }
+
+ }
+.contenedor-limited{
+    padding: 1rem;
+    .contenedor-carta-limited{
+       margin-bottom: 1rem;
+    
+        .carta{
+            border-radius: 0.50rem;
+            border:1px solid rgba(0,0,0,.125);
+            box-shadow: 0 10px 20px rgb(0 0 0 / 19%), 0 6px 6px rgb(0 0 0 / 23%);
+            height: auto;
+
+    
+    
+    
+    
+        img{
+            width: 100%;
+        }
+        .cuerpo-carta{    
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .titulo-carta{
+                text-align: center;
+                font-weight: 700;
+            
+            }
+            .lista-texto{
+                list-style: none;
+    
+            }
+            .price{
+                margin-left: 0.1rem;
+            }
+        .reserve-now{
+            border-radius: 0.25rem;
+            background-color: #007BFF;
+            color: #fff;
+            border: #007BFF;
+            margin-right: 2.1rem;
+            margin-top: 0.3rem;
+            font-size: 0.8rem;
+        }
+    }
+
+ }
+
+}
+}
+.contenedor-limited-consoles{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .contenedor-carta-limited{
+       margin-bottom: 1rem;
+       width: 85%;
+        .carta{
+            border-radius: 0.50rem;
+            border:1px solid rgba(0,0,0,.125);
+            box-shadow: 0 10px 20px rgb(0 0 0 / 19%), 0 6px 6px rgb(0 0 0 / 23%);
+            height: auto;
+            
+    
+    
+    
+    
+        img{
+            width: 100%;
+        }
+        .cuerpo-carta{    
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .titulo-carta{
+                text-align: center;
+                font-weight: 700;
+            
+            }
+            .lista-texto{
+                list-style: none;
+    
+            }
+            .price{
+                margin-left: 0.1rem;
+            }
+        .reserve-now{
+            border-radius: 0.25rem;
+            background-color: #007BFF;
+            color: #fff;
+            border: #007BFF;
+            margin-right: 2.1rem;
+            margin-top: 0.3rem;
+            font-size: 0.8rem;
+        }
+    }
+
+ }
+
+}
+}

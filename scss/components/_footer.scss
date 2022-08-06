@@ -1,0 +1,186 @@
+@media only screen and (min-width:541px){ 
+    .final-mobile{
+        display: none !important;
+    }
+    .contenedor-footer{
+        height: 40vh !important;
+        flex-direction: row !important;
+        align-items: flex-start !important;
+        padding: 1rem;
+    }
+    .contenedor-payment{ 
+        width: 30% !important;
+        height: auto !important;
+        margin: 0rem !important;
+     }
+    .contenedor-final{
+        background-color: #111111;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center;
+        .contenedor-derechos{
+            width: 90%;
+            border-top: solid 1px white;
+            display: flex;
+            justify-content: center;
+            h6{
+                color: white;
+                margin-top: 0.5rem;
+                font-size: 0.8rem;
+            }
+        }
+        .redes{
+            width: 90%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            i{
+                color: white;
+                font-size: 1.7rem;
+                margin-left: 1rem;
+                padding-bottom: 1rem;
+            }
+        }
+
+    }
+}   
+
+@media only screen and (max-width:541px){ 
+    .contenedor-final{
+        display: none;
+    }
+} 
+    .contenedor-categories{
+        display: none;
+    }
+    .contenedor-footer{
+        background-color: #111111;
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .contenedor-payment{
+            width: 70%;
+            height: 50%;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            margin-top: 2rem;
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+            .titulo-footer{
+                color: white;
+                font-size: 1.2rem;
+                font-weight: 600;
+            }
+            .contenedor-metodos{
+               width: 80%;
+               height: auto;
+               display: flex;
+               li{
+                color: white;
+               }
+            .contenedor-img-footer{   
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center; 
+                margin-top: 0.5rem;
+                img{
+                width: 70%;
+                height: 70%;
+                object-fit: contain;
+               }
+            }
+            }
+             .contenedor-libro{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .libro{                   
+                    color: white;
+                    font-size: 3.5rem;
+                    margin-top: 1rem;
+                }
+             }
+         }
+    .final-mobile{
+        border-top: solid 1px rgb(255, 255, 255);
+        padding-top: 0.7rem;
+        .contenedor-derechos{
+            width: 80%;
+            display: flex;
+            justify-content: center;
+            h6{
+                color: white;
+                font-size: 0.6rem;
+            }
+        }
+        .redes{
+            width: 22%;
+            justify-content: space-between;
+            i{
+                color: white;
+                font-size: 1.7rem;
+            }
+        }
+    }
+    }
+.contenedor-client{
+    width: 100%;
+    height: 40% !important;
+    height: auto;
+    display: flex;
+    li{
+     color: white;
+    }
+    img{
+     width: 100%;
+     height: 100%;
+     object-fit: contain;
+    }
+  }
+  .contenedor-libro{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     .libro{                   
+         color: white;
+         font-size: 3.5rem;
+     }
+  }
+.contenedor-contac{
+    width: 100%;
+    height: auto;
+    height: auto;
+    display: flex;
+    li{
+     color: white;
+     a{
+        color: #0463c8;
+        text-decoration: none;
+     }
+     a:hover{
+        text-decoration: solid;
+     }
+    }
+    img{
+     width: 100%;
+     height: 100%;
+     object-fit: contain;
+    }
+  }
+  .contenedor-libro{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     .libro{                   
+         color: white;
+         font-size: 3.5rem;
+     }
+  }

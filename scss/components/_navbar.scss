@@ -1,0 +1,508 @@
+/* Navbar desktop */ 
+@media only screen and (min-width:992px){
+.navbar-color{
+    position: fixed;
+    top: 0;
+    z-index: 75000;
+}
+}
+
+@media only screen and (max-width:992px){
+    .navbar-color{
+        position: fixed;
+        top: 0;
+        z-index: 75000;
+    }
+    .search{
+                      
+        width: 100% !important;
+        align-items: center;
+        display: flex;
+       
+
+        .form-control-modificado{
+            border-radius: 6rem 0rem 0rem 6rem;
+            height: 2rem;
+            border: none;
+            margin-top: 0.2rem;
+            width: 100%;
+            padding: 1rem
+            
+        }
+        
+        .contenedor-lupa{ 
+            height: 2rem;
+            border-radius: 0rem 6rem 6rem 0rem;
+            margin-top: 0.2rem;
+            background-color: #fff;
+           
+            
+
+
+            .boton-lupa{
+            
+                color: #273e4ae1;
+                font-size: 0.6rem;
+                margin-top: 0.2rem;
+            }
+        }
+    }
+    .contenedor-carrito-sign{
+        width: 100%;
+        height: 8vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0.3rem;
+        
+        
+
+        .carrito{
+        color: white;
+        font-size: 1.5rem;
+        margin-top: 0.3rem;
+        margin-right: 2rem;
+        position: relative;
+        transition: 0.3s;
+      
+        
+        }
+        .carrito:hover{
+            color: #FF8800;
+            
+        }
+        .signin {
+
+            height: 5vh;
+            border-radius: 6rem;
+            color: #fff ;
+            background-color: rgba(255, 255, 255, 0);
+            border: solid 2px #fff;
+            padding: 0.7;
+            transition: 0.5s;
+            font-size: 1rem;
+            
+        }
+    }
+
+    }
+    
+.alpha{
+    text-decoration: none;
+    color: #fff;
+  }
+  .alpha:hover{
+    color: #fff
+  }
+  @media only screen and (min-width:600px) and (max-width:1196px) { 
+
+
+
+   }
+
+    .lupa-carrito-mobile{
+        display: none;
+    }
+
+   
+  @media only screen and (min-width:992px){ 
+
+    .lupa-carrito-mobile{
+        display: none;
+    }
+
+   }
+   
+  @media only screen and (max-width:540px){ 
+
+        .navbar-color{
+            margin-top: -1.5rem
+            
+        }
+
+        .toggler-modificado{
+            margin-top: 1rem;
+        }
+        .lupa-carrito-mobile{
+
+            width: 22%;
+            margin-right: 0.7rem;
+            display: flex;
+            justify-content: space-between;
+            i{
+                color: #fff;
+                font-size: 1.5rem;
+                margin-top: 1.2rem;
+                transition: 0.3s;
+            }
+            i:hover{
+                color:#FF8800;
+            }
+        }
+        .brand-color{
+            margin-top: 1rem;
+        }
+   }
+
+  @media only screen and (max-width:540px){ 
+
+    .toggler-modificado{
+        margin-top: 1.3rem !important;
+    }
+    .contenedor-logo{
+               
+        width: 50%;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    .brand-color{
+        color: #fff;
+        height: 100%;
+        width: 50% !important;
+        display: flex;
+        align-items: center;
+    }
+
+    .search{
+                
+        
+        align-items: center;
+        display: flex;
+        justify-content: center !important;
+        .form-control-modificado{
+            border-radius: 6rem 0rem 0rem 6rem;
+            height: 2rem;
+            border: none;
+            margin-top: 0.2rem;
+            width: 100%;
+            padding: 1rem
+            
+        }
+    }
+    .contenedor-carrito-sign{
+        
+        width: 100% !important;
+        height: 6vh !important;
+        display: flex;
+        align-items: center;
+        justify-content: center !important;
+        padding: 0.3rem;
+        margin-top: 1rem;
+
+    .signin {
+
+                    
+        
+        border-radius: 6rem;
+        color: #fff ;
+        background-color: rgba(255, 255, 255, 0);
+        border: solid 2px #fff;
+        padding: 0.7;
+        transition: 0.5s;
+        font-size: 0.7rem !important;
+    }
+    .carrito{
+        display: none
+    }
+    
+    }
+  }
+
+  @media only screen and (min-width:540px) and (max-width:869px) { 
+
+    .navbar-color{
+        margin-top: -0.5rem;
+    }
+
+    .toggler-modificado{
+        margin-top: 0.4rem;
+    }
+    .lupa-carrito-mobile{
+
+        width: 22%;
+        margin-right: 0.7rem;
+        display: flex;
+        justify-content: space-between;
+        i{
+            color: #fff;
+            font-size: 1.5rem;
+            margin-top: 0.4rem;
+        }
+    }
+    .brand-color{
+        margin-top: 0.4rem;
+    }
+    .contenedor-logo{
+               
+        width: 30% !important;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+
+   }
+  @media only screen and (min-width:540px) and (max-width:992px) {
+
+    .navbar-color{
+        margin-top: -0.5rem;
+    }
+
+    .toggler-modificado{
+        margin-top: 0.4rem;
+    }
+    .lupa-carrito-mobile{
+
+        width: 22%;
+        margin-right: 0.7rem;
+        display: flex;
+        justify-content: space-between;
+        i{
+            color: #fff;
+            font-size: 1.5rem;
+            margin-top: 0.4rem;
+        }
+    }
+    .brand-color{
+        margin-top: 0.4rem;
+    }
+    .contenedor-logo{
+               
+        width: 30% !important;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    .brand-color{
+        color: #fff;
+        height: 100%;
+        width: 20%;
+        display: flex;
+        align-items: center;
+    }
+
+    .search{
+                
+        align-items: center;
+        display: flex;
+        justify-content: center !important;
+        .form-control-modificado{
+            border-radius: 6rem 0rem 0rem 6rem;
+            height: 2rem;
+            border: none;
+            margin-top: 0.2rem;
+            width: 100%;
+            padding: 1rem
+            
+        }
+    }
+
+    .contenedor-carrito-sign{
+        width: 100% !important;
+        height: 6vh !important;
+        display: flex;
+        align-items: center;
+        justify-content: center !important;
+        padding: 0.3rem;
+        margin-top: 1rem;
+
+    .signin {
+
+                    
+        
+        border-radius: 6rem;
+        color: #fff ;
+        background-color: rgba(255, 255, 255, 0);
+        border: solid 2px #fff;
+        padding: 0.7;
+        transition: 0.5s;
+        font-size: 0.7rem !important;
+    }
+    .carrito{
+        display: none
+    }
+    
+    }
+}
+
+  @media only screen and (min-width:992px) and (max-width:1080px) { 
+ 
+
+    .contenedor-carrito-sign{
+        width: 22% !important;
+        height: 8vh;
+        display: flex;
+        align-items: center;
+        padding: 0.3rem;
+        
+
+        .carrito{
+        color: white;
+        font-size: 1.5rem;
+        margin-top: 0.3rem;
+        margin-right: 2rem;
+        position: relative;
+        transition: 0.3s;
+      
+        
+        }
+        .carrito:hover{
+            color: #FF8800;
+            
+        }
+        .signin {
+
+            height: 3vh !important;
+            
+            border-radius: 6rem;
+            color: #fff ;
+            background-color: rgba(255, 255, 255, 0);
+            border: solid 2px #fff;
+            padding: 0.7;
+            transition: 0.5s;
+            font-size: 0.8rem !important;
+        }
+
+    }
+
+}
+
+    .navbar-color{
+        background-color: #0f1c22;
+        .toggler-modificado{
+            border: 1px solid rgba(255, 255, 255, 0.281);
+            background-color: #112127;
+            i{
+                font-size: 1.3rem;
+                color: rgba(255, 255, 255, 0.281);
+                padding: 0.3rem 0.5rem 0.3rem 0.5rem;
+            }
+        }
+        .container-modificado{
+            width: 100%;
+            .contenedor-logo{
+               
+                width: 20% !important;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+            .brand-color{
+                color: #fff;
+                height: 80% !important;
+                width: 20%;
+                display: flex;
+                align-items: center;
+                
+            }
+            .collapse-modificado{
+                 
+                flex-grow: 0;
+                width: 100%;
+                align-items: center;
+                .navbar-nav-modificado{
+                    
+                    width: 50%;
+                    justify-content: space-around;
+                    .color-link{
+                        color: #fff;
+                        border-radius: 6rem;
+                        transition: 0.3s;
+                    }
+                    .color-link:hover{
+                        background-color: #FF8800;
+                        color: #000;
+                    }
+                }
+                .search{
+                      
+                    width: 26%;
+                    align-items: center;
+                    display: flex;
+    
+                    .form-control-modificado{
+                        border-radius: 6rem 0rem 0rem 6rem;
+                        height: 2rem;
+                        border: none;
+                        margin-top: 0.2rem;
+                        width: 100%;
+                        padding: 1rem
+                        
+                    }
+                    
+                    .contenedor-lupa{ 
+                        height: 2rem;
+                        border-radius: 0rem 6rem 6rem 0rem;
+                        margin-top: 0.2rem;
+                        background-color: #fff;
+                       
+                        
+    
+    
+                        .boton-lupa{
+                        
+                            color: #273e4ae1;
+                            font-size: 0.6rem;
+                            margin-top: 0.2rem;
+                        }
+                    }
+                }
+                .contenedor-carrito-sign{
+                    width: 22%;
+                    height: 8vh;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    padding: 0.3rem;
+                    
+    
+                    .carrito{
+                    color: white;
+                    font-size: 1.5rem;
+                    margin-top: 0.3rem;
+                    margin-right: 2rem;
+                    position: relative;
+                    transition: 0.3s;
+                  
+                    
+                    }
+                    .carrito:hover{
+                        color: #FF8800;
+                        
+                    }
+                    .signin {
+    
+                        height: 5vh;
+                        width: 30vw;
+                        border-radius: 6rem;
+                        color: #fff ;
+                        background-color: rgba(255, 255, 255, 0);
+                        border: solid 2px #fff;
+                        padding: 0.7;
+                        transition: 0.5s;
+                        font-size: 1rem 
+                    }
+    
+                    .signin:hover{
+                        background-color: #FF8800;
+                        border: solid 2px rgb(0, 0, 0);
+                        color: #000;
+                     }
+                }
+            }
+        }
+    }   
+    
+
+    
+                
+  
